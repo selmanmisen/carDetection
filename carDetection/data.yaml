@@ -1,0 +1,7 @@
+
+train: C:\Users\LENOVO\Desktop\carDetection\train
+val: C:\Users\LENOVO\Desktop\carDetection\valid
+test: C:\Users\LENOVO\Desktop\carDetection\test
+
+nc: 1
+names: ['car']
