@@ -4,10 +4,9 @@ from ultralytics import YOLO
 #import model
 model = YOLO("runs/detect/train/weights/best.pt") # Load your trained model here (train2, train3, etc.)
 
-# give a video path
+# Load the video file
 path = "carDetection/trafficjam.mp4" 
-# or you can add a video path from your pc
-
+# you can add a video path from your pc
 # or you can use your pc's camera (default=0)
 # Open the video file
 cap = cv2.VideoCapture(path)
